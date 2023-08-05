@@ -1,7 +1,6 @@
-package lessons9;
+package lessons9array;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 public class App {
     public static void main ( String[] args ) {
