@@ -4,6 +4,9 @@ public class Professor extends User {
     private int experience;
     private int msgSent;
 
+    static  String department = "Computer science";
+
+
 
     public Professor ( String name, String surname, int experience ) {
         super ( name, surname );

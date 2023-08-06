@@ -10,6 +10,10 @@ public class App {
         String profMsg = professorAlex.mail ( "Hello! Who are you?" );
         System.out.println ( profMsg );
         System.out.println (professorAlex.getMsgSent () );
+        System.out.println (Professor.department );
+//        Professor.department = "Economics";
+//        System.out.println ( Professor.department );
+        System.out.println (User.userCount );
 
         Student studentNick = new Student ( "Nick", "Leleka", 5, 3 );
 //        String studMsg = studentNick.mail ( "Hello, I am a student" );
